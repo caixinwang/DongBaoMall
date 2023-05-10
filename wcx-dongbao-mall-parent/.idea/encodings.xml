@@ -5,5 +5,55 @@
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wcx-dongbao-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wcx-dongbao-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-api/wcx-dongbao-cart-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-api/wcx-dongbao-cart-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-api/wcx-dongbao-cms-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-api/wcx-dongbao-cms-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-api/wcx-dongbao-dictionary-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-api/wcx-dongbao-dictionary-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-api/wcx-dongbao-oms-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-api/wcx-dongbao-oms-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-api/wcx-dongbao-pay-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-api/wcx-dongbao-pay-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-api/wcx-dongbao-pms-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-api/wcx-dongbao-pms-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-api/wcx-dongbao-sms-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-api/wcx-dongbao-sms-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-api/wcx-dongbao-ums-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-api/wcx-dongbao-ums-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-application/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-application/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-application/wcx-dongbao-manager-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-application/wcx-dongbao-manager-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-application/wcx-dongbao-portal-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-application/wcx-dongbao-portal-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-common/wcx-dongbao-common-base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-common/wcx-dongbao-common-base/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-common/wcx-dongbao-common-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-common/wcx-dongbao-common-util/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-generator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-generator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-job/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-job/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-service/wcx-dongbao-cart/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-service/wcx-dongbao-cart/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-service/wcx-dongbao-cms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-service/wcx-dongbao-cms/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-service/wcx-dongbao-dictionary/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-service/wcx-dongbao-dictionary/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-service/wcx-dongbao-oms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-service/wcx-dongbao-oms/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-service/wcx-dongbao-pay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-service/wcx-dongbao-pay/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-service/wcx-dongbao-pms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-service/wcx-dongbao-pms/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-service/wcx-dongbao-sms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-service/wcx-dongbao-sms/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-service/wcx-dongbao-ums/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wcx-dongbao-service/wcx-dongbao-ums/src/main/resources" charset="UTF-8" />
   </component>
 </project>
