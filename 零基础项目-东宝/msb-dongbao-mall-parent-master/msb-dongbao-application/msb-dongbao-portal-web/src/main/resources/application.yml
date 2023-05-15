@@ -1,0 +1,84 @@
+spring:
+  profiles:
+    active: ${profiles.active}
+  application:
+    name: msb-dongbao-portal-web
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+## cassandra数据库配置
+  data:
+    cassandra:
+      contactPoints: 127.0.0.1
+      port: 9042
+      keyspaceName: msb_dongbao_mall_test
+      username: cassandra
+      password: cassandra
+      serial-consistency-level: all
+    # mongo config
+    mongodb:
+      # cluster config
+      # uri: mongodb://test_user:pass%40123@192.168.1.1:27017,192.168.1.2:27017,192.168.1.3:27017/tdb
+      host: 127.0.0.1
+      port: 27017
+      database: dongbao-portal
+  redis:
+    cluster:
+        nodes: 127.0.0.1:7000,127.0.0.1:7001,127.0.0.1:7002,127.0.0.1:7003,127.0.0.1:7004,127.0.0.1:7005
+    timeout: 6000ms
+    password: 1234567
+    lettuce:
+      pool:
+        # 连接池最大连接数（使用负值表示没有限制）
+        max-active: 1000
+        # 连接池中的最大空闲连接
+        max-idle: 10
+        # 连接池中的最小空闲连接
+        min-idle: 5
+        # 连接池最大阻塞等待时间（使用负值表示没有限制）
+        max-wait: 5000ms
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql
+  auto-dialect:
+jwt:
+  tokenHeader: Authorization #JWT存储的请求头
+  secret: msb-mall #JWT加解密使用的密钥
+  expiration: 604800 #JWT的超期限时间(60*60*24*7)
+  tokenHead: 'Bearer '  #JWT负载中拿到开头
+secure:
+  ignored:
+    urls: #安全路径白名单
+      - /swagger-ui.html
+      - /swagger-resources/**
+      - /swagger/**
+      - /**/v2/api-docs
+      - /**/*.js
+      - /**/*.css
+      - /**/*.png
+      - /**/*.ico
+      - /webjars/springfox-swagger-ui/**
+      - /druid/**
+      - /actuator/**
+      - /sso/**
+      - /home/**
+
+# shopping cart config
+cart:
+  storage:
+    redis:
+      enabled: true
+    mongo:
+      enabled: false
+
+# es
+# 配置集群名
+elasticsearch:
+  clusterName: P8
+  # 配置节点信息
+  clusterNodes:
+    - ip: 127.0.0.1
+      port: 9300
