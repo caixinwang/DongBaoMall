@@ -1,0 +1,30 @@
+server:
+  port: 8080
+#  ssl:
+#    key-store: classpath:dongbao-alias.keystore
+#    key-store-type: JKS
+#    key-alias: dongbao-alias
+#    key-store-password: 123456
+#    key-password: 123456
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.103.40.79:3306/wcx_dongbao_mall?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: YYcx2928999.
+  redis:
+    host: 47.103.40.79
+    port: 6379
+
+mybatis:
+  mapper-locations: classpath:com/wcx/dongbao/dao/mapper/*.xml
+  type-aliases-package: com.wcx.dongbao.ums.entity
+  configuration:
+    map-underscore-to-camel-case: true
+
+mybatis-plus:
+  mapper-locations: classpath:com/wcx/dongbao/dao/mapper/*.xml
+  type-aliases-package: com.wcx.dongbao.ums.entity
+
+

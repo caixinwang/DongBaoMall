@@ -7,11 +7,11 @@
     <groupId>com.wcx</groupId>
     <artifactId>wcx-dongbao-oms-api</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <parent>
+        <artifactId>wcx-dongbao-api</artifactId>
+        <groupId>com.wcx</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
 
 </project>

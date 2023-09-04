@@ -7,11 +7,41 @@
     <groupId>com.wcx</groupId>
     <artifactId>wcx-dongbao-ums</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <parent>
+        <artifactId>wcx-dongbao-service</artifactId>
+        <groupId>com.wcx</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-    
+    <dependencies>
+<!--        获取api以及entity-->
+        <dependency>
+            <groupId>com.wcx</groupId>
+            <artifactId>wcx-dongbao-ums-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+<!--        统一返回的数据包装以及状态-->
+        <dependency>
+            <groupId>com.wcx</groupId>
+            <artifactId>wcx-dongbao-common-base</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+<!--    给用户返回token-->
+        <dependency>
+            <groupId>com.wcx</groupId>
+            <artifactId>wcx-dongbao-common-util</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+<!--        密码脱敏-->
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-crypto</artifactId>
+        </dependency>
+
+
+
+    </dependencies>
+
 </project>
