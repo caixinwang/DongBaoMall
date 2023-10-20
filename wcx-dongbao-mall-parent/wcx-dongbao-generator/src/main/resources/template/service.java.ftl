@@ -3,8 +3,8 @@ package ${package.Service};
 import ${package.Entity}.${entity};
 import ${superServiceClassPackage};
 
-import com.msb.dongbao.common.base.dto.PageResult;
-import com.msb.dongbao.common.base.dto.ResultWrapper;
+import com.wcx.dongbao.common.base.dto.PageResult;
+import com.wcx.dongbao.common.base.dto.ResultWrapper;
 import ${package.DTO}.${entity}PageDTO;
 import ${package.DTO}.${entity}DTO;
 import ${package.VO}.${entity}VO;

@@ -6,9 +6,9 @@ import ${package.Service}.${table.serviceName};
 import ${superServiceImplClassPackage};
 import org.springframework.stereotype.Service;
 
-import com.msb.dongbao.common.base.dto.BaseReturnCode;
-import com.msb.dongbao.common.base.dto.PageResult;
-import com.msb.dongbao.common.base.dto.ResultWrapper;
+import com.wcx.dongbao.common.base.dto.BaseReturnCode;
+import com.wcx.dongbao.common.base.dto.PageResult;
+import com.wcx.dongbao.common.base.dto.ResultWrapper;
 import ${package.DTO}.${entity}PageDTO;
 import ${package.DTO}.${entity}DTO;
 import ${package.VO}.${entity}VO;

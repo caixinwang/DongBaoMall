@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5c424a43-b312-428c-a55a-5cafffd448c6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../宝东商城.md" beforeDir="false" afterPath="$PROJECT_DIR$/../宝东商城.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../零基础项目-东宝/19 商品中心 类目设计.md" beforeDir="false" afterPath="$PROJECT_DIR$/../零基础项目-东宝/19 商品中心 类目设计.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Notes/多线程与高并发/juc&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Notes/DongBao/wcx-dongbao-mall-parent/wcx-dongbao-service/wcx-dongbao-pms/java/com/msb/mall&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -79,11 +78,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Notes\DongBao\wcx-dongbao-mall-parent\wcx-dongbao-service\wcx-dongbao-pms\java\com\msb\mall" />
+      <recent name="D:\Notes\DongBao\wcx-dongbao-mall-parent\wcx-dongbao-service\wcx-dongbao-pms" />
       <recent name="D:\Notes\DongBao\wcx-dongbao-mall-parent\wcx-dongbao-application\wcx-dongbao-portal-web\src\main\test" />
       <recent name="D:\Notes\DongBao\wcx-dongbao-mall-parent\wcx-dongbao-application\wcx-dongbao-portal-web\src\main\resources" />
       <recent name="D:\Notes\DongBao\wcx-dongbao-mall-parent\wcx-dongbao-api\wcx-dongbao-ums-api\src\main\java\com\wcx\dongbao\ums" />
-      <recent name="D:\Notes\DongBao\wcx-dongbao-mall-parent\wcx-dongbao-service\wcx-dongbao-ums\src\main\resources" />
-      <recent name="D:\Notes\DongBao\wcx-dongbao-mall-parent\wcx-dongbao-generator\src\main\resources\template" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Notes\DongBao\wcx-dongbao-mall-parent\wcx-dongbao-common\wcx-dongbao-common-base\src\main\java" />
@@ -148,6 +147,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="wcx-dongbao-pms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wcx.mall.product.MallProductApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -229,6 +235,10 @@
       <workItem from="1689300300737" duration="1194000" />
       <workItem from="1689403077975" duration="1539000" />
       <workItem from="1689408299892" duration="9000" />
+      <workItem from="1694582777668" duration="1429000" />
+      <workItem from="1694750542268" duration="6994000" />
+      <workItem from="1694763022515" duration="3837000" />
+      <workItem from="1694772507511" duration="9000" />
     </task>
     <servers />
   </component>
@@ -265,6 +275,11 @@
           <properties class="com.wcx.dongbao.portal.web.excepetion.SignException" package="com.wcx.dongbao.portal.web.excepetion" />
           <option name="timeStamp" value="5" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/wcx-dongbao-application/wcx-dongbao-portal-web/src/main/java/com/wcx/dongbao/portal/web/util/CachedBodyHttpServletRequest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

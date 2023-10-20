@@ -14,7 +14,7 @@ import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
     </#if>
 </#if>
-import com.msb.dongbao.common.base.dto.BasePageRquest;
+import com.wcx.dongbao.common.base.dto.BasePageRquest;
 
 /**
  * <p>

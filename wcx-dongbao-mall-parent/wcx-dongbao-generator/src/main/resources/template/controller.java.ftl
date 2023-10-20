@@ -1,7 +1,7 @@
 package ${package.Controller};
 
-import com.msb.dongbao.common.base.dto.PageResult;
-import com.msb.dongbao.common.base.dto.ResultWrapper;
+import com.wcx.dongbao.common.base.dto.PageResult;
+import com.wcx.dongbao.common.base.dto.ResultWrapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.validation.annotation.Validated;

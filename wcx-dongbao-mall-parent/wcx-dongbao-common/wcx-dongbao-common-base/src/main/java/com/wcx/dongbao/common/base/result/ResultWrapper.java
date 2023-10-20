@@ -36,8 +36,4 @@ public class ResultWrapper<T> implements Serializable {
                 .code(stateCodeEnum.getCode())
                 .msg(stateCodeEnum.getMsg()).build();
     }
-
-
-
-
 }
